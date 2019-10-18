@@ -5,7 +5,7 @@
 * Brian
 * Esin
 
-# Group 2 - Carlos
+# Team - Carlos
 
 * Natalie
 * Lauren
@@ -19,14 +19,14 @@
 * Melaina
 * William
 
-# Group 4 - Hou
+# Hou Bout Dat - Hou
 
 * Shaym
 * Taylor
 * JP
 * Anthony
 
-# Group 5 - Ali
+# Ali's Favorite Team - Ali
 
 * Shamira
 * Sarah
