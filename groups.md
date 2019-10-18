@@ -12,7 +12,7 @@
 * Chris
 * Thomas
 
-# Group 3 - Ali
+# Team better than all the other teams - Ali
 
 * Jared
 * Bonnie
