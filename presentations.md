@@ -51,4 +51,4 @@ answering questions during the Q & A. We suggest the following structure:
 
 ## Presentation Schedule
 
-Presentations will take place from 1:30pm - 3:00pm in our classroom.
+Presentations will take place from 2:30pm - 3:00pm in our classroom.
