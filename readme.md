@@ -45,11 +45,10 @@ employers eye and get you hired.
   across mobile, tablet, and desktop widths.
 - You must have at least 4 components and at least one test for each of your components
 
-Review the [Rubric](./evaluation.md) for the specifics of how your project will
-be graded.
-
-### Collaboration
-
+**Project Requirements:**
+- You must include a `planning/` directory that sufficiently demonstrates your
+  team's planning process.
+- Both your front-end and back-end repos have a README that adequately documents the project.
 - Every team member must have roughly the same number of individual commits in
   the commit history for your app (dividing responsibilities between different
   parts of the app is fine, but every team member must have commits in the
@@ -58,10 +57,10 @@ be graded.
   [Git Workflow](https://git.generalassemb.ly/seir-129/git-teams)
 - Every team member must speak for roughly the same amount of time during the
   group [presentation](./presentations.md)
+  
+**Deployment Requirements:**
 
-### Deployment
-
-- Your API must be deployed to Heroku and your front-end must be deployed to
+- Your back-end/API must be deployed to Heroku and your front-end must be deployed to
   GitHub pages or [Heroku](https://git.generalassemb.ly/seir-129/project-2/blob/master/project-setup-and-deployment-guide.md). Applications that are not deployed will be considered
   incomplete.
 
