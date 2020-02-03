@@ -168,17 +168,13 @@ meetings with each group to talk about progress and planning.
 
 Each team will be given 5 (five) tokens, redeemable at any time during regular
 class and Study Hall time (not including evening Office hours), for 20 minutes
-with an instructor. Tokens cannot be transferred between groups - there is no
+with an instructor. Tokens are redeemable during regular class time or as determined 
+by your Squad Lead. Tokens cannot be transferred between groups - there is no
 black market for tokens.
 
 Instructors will not be holding open office hours during project week. This is
 to give you the opportunity to solve issues and errors you run in to on your own
 and with your team.
-
-An instructor will be assigned to each team and wil check in with your team
-every morning for about 15 minutes. The purpose of these check-ins is not to
-discuss technical questions, but to answer questions about workflow,
-collaboration, communication or anything else related to working in a team.
 
 
 ## App Organization
