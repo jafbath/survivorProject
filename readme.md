@@ -168,8 +168,9 @@ meetings with each group to talk about progress and planning.
 
 Each team will be given 5 (five) tokens, redeemable at any time during regular
 class and Study Hall time (not including evening Office hours), for 20 minutes
-with an instructor. Tokens are redeemable during regular class time or as determined 
-by your Squad Lead. Tokens cannot be transferred between groups - there is no
+with an instructor. 
+- Tokens are redeemable during project office hours (see the course schedule).
+- Tokens cannot be transferred between groups - there is no
 black market for tokens.
 
 Instructors will not be holding open office hours during project week. This is
