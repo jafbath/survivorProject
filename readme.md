@@ -30,9 +30,10 @@ employers eye and get you hired.
 
 - Your back-end must be a Node, Express, and Mongoose API with at least 1
   non-user models. No associations are required.
-- Must have Create, Read, Update, and Destroy functionality built throughout the
+- You must have Create, Read, Update, and Destroy functionality built throughout the
   app (i.e. You don't need full CRUD on every model, just full CRUD throughout
   your models where it makes sense).
+- You must have a test for each of your routes.
 
 **Front-End Requirements:**
 
@@ -40,6 +41,9 @@ employers eye and get you hired.
   requirements.
 - You must communicate with the back-end API RESTfully to Create, Read, Update,
   and Destroy resources (using either `fetch` or `axios`).
+- You must use either CSS Grid or Flexbox along with media queries to make your app responsive
+  across mobile, tablet, and desktop widths.
+- You must have at least 4 components and at least one test for each of your components
 
 Review the [Rubric](./evaluation.md) for the specifics of how your project will
 be graded.
@@ -51,14 +55,14 @@ be graded.
   parts of the app is fine, but every team member must have commits in the
   project).
 - Every team must follow a
-  [Git Workflow](https://git.generalassemb.ly/dc-wdi-react-redux/git-teams)
+  [Git Workflow](https://git.generalassemb.ly/seir-129/git-teams)
 - Every team member must speak for roughly the same amount of time during the
   group [presentation](./presentations.md)
 
 ### Deployment
 
 - Your API must be deployed to Heroku and your front-end must be deployed to
-  GitHub pages or Surge. Applications that are not deployed will be considered
+  GitHub pages or [Heroku](https://git.generalassemb.ly/seir-129/project-2/blob/master/project-setup-and-deployment-guide.md). Applications that are not deployed will be considered
   incomplete.
 
 > We strongly recommend deploying your back-end and front-end separately. This
@@ -89,9 +93,7 @@ feature_** to your application.
 ## Submission
 
 **_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository. Then, submit
-your project as an issue to this repo:
-
-[github.com/ga-dc/project3-gallery](https://github.com/ga-dc/project3-gallery/issues/new)
+your project as an issue to this repo.
 
 Your team must turn in something before presentations begin. However, you are
 welcome to continue working on it over the course of SEI and beyond!
@@ -118,9 +120,7 @@ Planning and Process is one category by which we will be
 ### Final Application
 
 Your project is due on the last day of Project Week (the exact date is in your
-course calendar). Create an issue on
-[the project3-gallery repository](https://github.com/ga-dc/project3-gallery)
-containing:
+course calendar). Create an issue on this repo containing:
 
 - A link to your deployed application
 - A link to your Project 3 Github repositories (Do not fork this repo)
@@ -187,7 +187,7 @@ collaboration, communication or anything else related to working in a team.
 You should split your application into separate repositories, one for your React
 front-end and another for your Node-Express-Mongoose backend API.
 
-[See deploying to Heroku with MongoDB Atlas here](https://git.generalassemb.ly/seir-826/heroku-atlas-deployment).
+[See deploying to Heroku with MongoDB Atlas here](https://git.generalassemb.ly/seir-129/heroku-atlas-deployment).
 
 ## Contribution Guidelines
 
@@ -226,7 +226,7 @@ If you're struggling to come up with your own project ideas, checkout
 > your own unique version of it.
 
 Once your team selects an idea, the group **must** choose a workflow from the
-[Git Teams & Workflow lesson](https://git.generalassemb.ly/ga-wdi-lessons/git-teams).
+[Git Teams & Workflow lesson](https://git.generalassemb.ly/seir-129/git-teams).
 Be prepared to share your team's plans with your assigned instructor at the
 first round of scrum.
 
@@ -280,7 +280,7 @@ using [PrettierJS](https://github.com/prettier/prettier).
 ## Plagiarism
 
 Take a moment to re-familiarize yourself with the
-[plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md),
+[plagiarism policy](https://git.generalassemb.ly/seir-129/course-intro/blob/master/plagiarism.md),
 specifically on using work you find online and on work you do with other
 students.
 
