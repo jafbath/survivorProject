@@ -226,7 +226,7 @@ first round of scrum.
 - **Designate a scrum master for your team.** The scrum master will act as the project
   manager for the team and run daily standups to ensure the team is aligned on the
   most important priorities and deadlines. He/she will also ensure that the work of 
-  every individual contributer on the team is integrated into a single, coherent application.
+  every individual contributor on the team is integrated into a single, coherent application.
 - **Write pseudocode** before you write actual code. Thinking through the logic
   first helps.
 - **Write tests** that translate your pseudocode into requirements for the code
