@@ -102,7 +102,7 @@ Your submission must include **all** of the following:
 
 ### Project Idea and Initial Planning
 
-By the end of Day 1 of Project Week, you need to submit:
+By 12pm ET of Day 1 of Project Week, you need to submit:
 
 1. Your project idea (a brief 2-3 sentence description of your app)
 2. A list of your models and their properties
@@ -112,7 +112,7 @@ inside a `planning/` directory inside at least one of your project repositories.
 
 ### Final Application
 
-Your project is due on the last day of Project Week (the exact date is in your
+Your project is due on the last day of Project Week (the exact date and time are in your
 course calendar). Create an issue on this repo containing:
 
 - A link to your deployed application
