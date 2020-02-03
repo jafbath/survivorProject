@@ -73,10 +73,6 @@ employers eye and get you hired.
 You should only attempt these bonuses if and only if you've satisfied the base
 technical requirements for this project.
 
-#### Testing
-
-Add testing for either your backend or frontend or both!
-
 #### User Authorization
 
 Consider whether or not you want to introduce a barrier to entry for your
