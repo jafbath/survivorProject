@@ -168,14 +168,13 @@ meetings with each group to talk about progress and planning.
 
 Each team will be given 5 (five) tokens, redeemable at any time during regular
 class and Study Hall time (not including evening Office hours), for 20 minutes
-with an instructor. 
+with an instructor. The motivation behind the token system is to give you the 
+opportunity to solve issues and errors you run in to on your own and with your
+team.
 - Tokens are redeemable during project office hours (see the course schedule).
-- Tokens cannot be transferred between groups - there is no
-black market for tokens.
-
-Instructors will not be holding open office hours during project week. This is
-to give you the opportunity to solve issues and errors you run in to on your own
-and with your team.
+If you absolutely need to redeem your tokens outside of these predetermined hours, 
+please direct message your Squad Lead for assistance.
+- Tokens cannot be transferred between groups - there is no black market for tokens.
 
 
 ## App Organization
