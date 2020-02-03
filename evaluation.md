@@ -5,17 +5,6 @@ instructors as to whether your project is complete.
 
 ## Hard Requirements
 
-The following **_must_** be met in order for the project to be considered
-complete:
-
-- The app is deployed fully deployed (both the front-end and the back-end).
-- New repos with the students' project code are included in the submission.
-- Students include a `planning/` directory that sufficiently demonstrates their
-  team's planning process.
-- The repos have a README that adequately documents the project.
-- The commit history of your repos show a roughly equal number of commits from
-  each group member
-
 ## Criteria
 
 We will evaluate your project according to the following criteria:
