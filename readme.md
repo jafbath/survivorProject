@@ -113,8 +113,6 @@ By the end of Day 1 of Project Week, you need to submit:
 
 These and any other planning assets (wireframes, user stories, etc) should go
 inside a `planning/` directory inside at least one of your project repositories.
-Planning and Process is one category by which we will be
-[evaluating your project](./evaluation.md).
 
 ### Final Application
 
