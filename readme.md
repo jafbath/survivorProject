@@ -17,6 +17,10 @@ joining a development team during your career. Working collaboratively is a
 learned skill, just like programming. It's important to learn how to work
 together.
 
+***You are highly encouraged to pair-program throughout the project. Check
+out this [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+feature on VSCode that enables real-time collaboration between developers***
+
 ## Requirements
 
 It is important to keep in mind the goal of this program and these projects,
