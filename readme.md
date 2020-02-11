@@ -1,8 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #3: Building a Full Stack MERN Application
 
-Your last project taught you how to build an API application with Express and
-Mongoose. This project will have you build a full stack application with a
-similar API backend as well as a React front-end.
+In your last project, you learned how to build a frontend React application that used data from a third-party API. In this project will have you build a full stack application with a similar React frontend, but with your own backend server and database. 
 
 Your instructors have organized you and your classmates into groups to design
 and build an app with two major components:
