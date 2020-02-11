@@ -106,10 +106,16 @@ Your submission must include **all** of the following:
 
 ### Project Idea and Initial Planning
 
+***Designate a scrum master for your team.*** The scrum master will act as the project manager 
+for the team and run daily standups to ensure the team is aligned on the most important 
+priorities and deadlines. He/she will also ensure that the work of every individual contributor 
+on the team is integrated into a single, coherent application.
+
 By 12pm ET of Day 1 of Project Week, you need to submit:
 
 1. Your project idea (a brief 2-3 sentence description of your app)
 2. A list of your models and their properties
+3. Scrum master/project manager's name
 
 These and any other planning assets (wireframes, user stories, etc) should go
 inside a `planning/` directory inside at least one of your project repositories.
@@ -159,8 +165,12 @@ The repository for the frontend of your application should include:
 
 ### Scrums
 
-Once a day, typically in the morning, the instructors will have 10 minute scrum
-meetings with each group to talk about progress and planning.
+Once a day, typically in the morning, the scrum master will lead a 10 minute scrum
+meeting with each group to talk about progress and planning. During the standup, each
+person should cover:
+- what was worked on the day before
+- what will be worked on that day
+- any obstacles that could jeopardize project deadlines
 
 ### In-person Support
 
