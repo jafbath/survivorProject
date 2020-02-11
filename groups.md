@@ -1,48 +1,44 @@
-# Group 1 - Kenny
+# Group 1 - Jennifer
+* Dan F.
+* Asha
+* Joe
+* Teresa
 
-* Vincent
-* Eleni
-* Brian
-* Esin
+# Group 2 - Jennifer
+* Jarred
+* Chris W.
+* Alex
 
-# Team - Carlos
+# Group 3 - Hou
+* Abdul
+* Sage
+* Daisy
+* Jade
 
-* Natalie
-* Lauren
-* Chris
-* Thomas
+# Group 4 - Hou
+* Rixio
+* Jaimie
+* Muezzin
 
-# DrEAM Team - Ali
+# Group 5 - Esin
+* Peter L.
+* Ryan Z.
+* Mindy
+* Suzann
 
-* Jared
-* Bonnie
-* Melaina
-* William
+# Group 6 - Esin
+* Skyler
+* Chris A.
+* Jarod
 
-# Hou Bout Dat - Hou
+# Group 7 - Jerrica
+* Michelene
+* Jordan
+* Qusai
+* Ghazal
 
-* Shaym
-* Taylor
-* JP
-* Anthony
-
-# Ali's Favorite Team - Ali
-
-* Shamira
-* Sarah
-* Nathaniel
-* James
-
-# Group 6 - Hou
-
-* Corey
-* Gabe
-* Winston
-* Cooper
-
-# Group 7 - Carlos
-
-* Jonathan
-* Aaron
-* Devesh
-* Terence
+# Group 8 - Jared
+* Myshawne
+* Tiffany
+* Brendan
+* Daphne
