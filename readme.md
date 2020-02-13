@@ -239,6 +239,13 @@ first round of scrum.
   manager for the team and run daily standups to ensure the team is aligned on the
   most important priorities and deadlines. He/she will also ensure that the work of 
   every individual contributor on the team is integrated into a single, coherent application.
+- Pick a Scrum Master who is willing to put in the work of managing people toward one cohesive vision. Groups that are      successful get organized behind one mission, with a leader who can rally people to the cause and delegate the right tasks to the right people to get things done. Successful groups also have teammates who are willing to put in the work to achieve the end vision and prioritize the group’s goals. 
+- Pick the Git Workflow that makes the most sense for your group, then pick a Git Manager who acts as air traffic control for your repos. The Git Manager should be the one approving and merging pull requests, and coordinating with everyone to minimize and resolve merge conflicts. 
+- Use a central organizing document like a Trello Board or a Google Doc to keep your plans organized and accessible to the whole group. Invest time up front in planning both the project itself as well your group’s approach — who will be responsible for what parts of the code? When will your group get work done? How and when will you use your tokens? 
+- Try to work on both front- and backend code if possible, as this will be your only full-stack project experience before your capstone. Better yet, try to focus on the area that you need to grow in the most (if servers aren’t your thing yet, work on the backend; if you and React still don’t get along, put in some time on the frontend). 
+- Spend some time on camera with your teammates everyday in addition to pair programming and standups with your squad leader. Google Hangouts is a great option for this, or shorter Zoom sessions. Working with others helps you stay accountable, and teammates are also a great resource. 
+- Aim to hit MVP as early as possible. To that end, plan an MVP for your app that you know is doable with what you have already learned. Commit and deploy early and often. Do not wait until Thursday or Friday to deploy for the first time, as you almost certainly WILL run into big issues. 
+- Remember that this will be one of the two more technically complex projects in each of your portfolios. Spend the time and energy to put a lot of work into making something each one of you can be proud to show off to employers. The code should be clean and functional, and it should have a professional design as well. 
 - **Write pseudocode** before you write actual code. Thinking through the logic
   first helps.
 - **Write tests** that translate your pseudocode into requirements for the code
