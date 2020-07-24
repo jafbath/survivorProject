@@ -32,7 +32,7 @@ answering questions during the Q & A. We suggest the following structure:
 ## The Workflow
 
 - What
-  [Git Workflow](https://git.generalassemb.ly/ga-wdi-lessons/git-teams#git-workflows-5-min--055)
+  [Git Workflow](https://git.generalassemb.ly/seir-622/git-workflow-teams)
   did you follow?
 - What did you like about this workflow; what did you dislike?
 - Did you run into any challenges with this workflow? How did you solve them?
