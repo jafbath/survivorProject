@@ -35,7 +35,7 @@ employers eye and get you hired.
 - You must have Create, Read, Update, and Destroy functionality built throughout the
   app (i.e. You don't need full CRUD on every model, just full CRUD throughout
   your models where it makes sense).
-- You m have a test for each of your routes.
+- You must have a test for each of your routes.
 
 **Front-End Requirements:**
 
