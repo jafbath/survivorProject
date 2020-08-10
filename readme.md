@@ -35,7 +35,6 @@ employers eye and get you hired.
 - You must have Create, Read, Update, and Destroy functionality built throughout the
   app (i.e. You don't need full CRUD on every model, just full CRUD throughout
   your models where it makes sense).
-- You must have a test for each of your routes.
 
 **Front-End Requirements:**
 
@@ -45,7 +44,7 @@ employers eye and get you hired.
   and Destroy resources (using either `fetch` or `axios`).
 - You must use either CSS Grid or Flexbox along with media queries to make your app responsive
   across mobile, tablet, and desktop widths.
-- You must have at least 4 components and at least one test for each of your components
+- You must have at least 4 components
 
 **Project Requirements:**
 - You must include a `planning/` directory that sufficiently demonstrates your
@@ -248,8 +247,6 @@ first round of scrum.
 - Remember that this will be one of the two more technically complex projects in each of your portfolios. Spend the time and energy to put a lot of work into making something each one of you can be proud to show off to employers. The code should be clean and functional, and it should have a professional design as well. 
 - **Write pseudocode** before you write actual code. Thinking through the logic
   first helps.
-- **Write tests** that translate your pseudocode into requirements for the code
-  you need to write. Then, write just enough code to make your tests pass!
 - Don't hesitate to **write throwaway code** to solve short-term problems.
 - **Read the docs** for whatever technologies / frameworks / API's you plan to
   use. (See ["RTFM"](https://en.wikipedia.org/wiki/RTFM))
