@@ -80,6 +80,9 @@ Consider whether or not you want to introduce a barrier to entry for your
 application. Does it fit in with the idea of your application? User
 authorization is tricky.
 
+Take a look at [this repo](https://git.generalassemb.ly/seir-622/express-auth-api)
+to learn about user authentication/authorization.
+
 #### Maps
 
 If your application uses physical locations, consider adding a map **_as a bonus
