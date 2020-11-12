@@ -55,14 +55,14 @@ employers eye and get you hired.
   parts of the app is fine, but every team member must have commits in the
   project).
 - Every team must follow a
-  [Git Workflow](https://git.generalassemb.ly/seir-622/git-workflow-teams)
+  [Git Workflow](https://git.generalassemb.ly/sei-921/git-teams)
 - Every team member must speak for roughly the same amount of time during the
   group [presentation](./presentations.md)
   
 **Deployment Requirements:**
 
 - Your back-end/API must be deployed to Heroku and your front-end must be deployed to
-  GitHub pages or [Heroku](https://git.generalassemb.ly/seir-622/project-2/blob/master/project-setup-and-deployment-guide.md). Applications that are not deployed will be considered
+  GitHub pages or [Heroku](https://git.generalassemb.ly/sei-921/project-2/blob/master/project-setup-and-deployment-guide.md). Applications that are not deployed will be considered
   incomplete.
 
 > We strongly recommend deploying your back-end and front-end separately. This
@@ -80,7 +80,7 @@ Consider whether or not you want to introduce a barrier to entry for your
 application. Does it fit in with the idea of your application? User
 authorization is tricky.
 
-Take a look at [this repo](https://git.generalassemb.ly/seir-622/express-auth-api)
+Take a look at [this repo](https://git.generalassemb.ly/sei-921/express-auth-api)
 to learn about user authentication/authorization.
 
 #### Maps
@@ -190,7 +190,7 @@ please direct message your Squad Lead for assistance.
 You should split your application into separate repositories, one for your React
 front-end and another for your Node-Express-Mongoose backend API.
 
-[See deploying to Heroku with MongoDB Atlas here](https://git.generalassemb.ly/seir-622/heroku-atlas-deployment).
+[See deploying to Heroku with MongoDB Atlas here](https://git.generalassemb.ly/sei-921/heroku-atlas-deployment).
 
 ## Contribution Guidelines
 
@@ -229,7 +229,7 @@ If you're struggling to come up with your own project ideas, checkout
 > your own unique version of it.
 
 Once your team selects an idea, the group **must** choose a workflow from the
-[Git Teams & Workflow lesson](https://git.generalassemb.ly/seir-622/git-teams).
+[Git Teams & Workflow lesson](https://git.generalassemb.ly/sei-921/git-teams).
 Be prepared to share your team's plans with your assigned instructor at the
 first round of scrum.
 
@@ -292,7 +292,7 @@ using [PrettierJS](https://github.com/prettier/prettier).
 ## Plagiarism
 
 Take a moment to re-familiarize yourself with the
-[plagiarism policy](https://git.generalassemb.ly/seir-622/course-intro/blob/master/plagiarism.md),
+[plagiarism policy](https://git.generalassemb.ly/sei-921/course-intro/blob/master/plagiarism.md),
 specifically on using work you find online and on work you do with other
 students.
 
