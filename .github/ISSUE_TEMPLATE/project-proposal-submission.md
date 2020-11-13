@@ -1,5 +1,5 @@
 ---
-name: Project Proposal Submission
+name: Project proposal submission
 about: Issue to submit project proposal
 title: Your Group Names + Squad Lead
 labels: ''
