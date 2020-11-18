@@ -2,7 +2,7 @@
 name: Project troubleshooting request
 about: Issue to request troubleshooting
 title: BUG DESCRIPTION
-labels: ''
+labels: bug
 assignees: esin87
 
 ---
