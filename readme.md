@@ -66,7 +66,7 @@ employers eye and get you hired.
   parts of the app is fine, but every team member must have commits in the
   project).
 - Every team must follow a
-  [Git Workflow](https://git.generalassemb.ly/sei-921/git-teams)
+  [Git Workflow](https://git.generalassemb.ly/sei2-201/git-team-workflows)
 - Every team member must speak for roughly the same amount of time during the
   group [presentation](./presentations.md)
 
@@ -91,7 +91,7 @@ Consider whether or not you want to introduce a barrier to entry for your
 application. Does it fit in with the idea of your application? User
 authorization is tricky.
 
-Take a look at [this repo](https://git.generalassemb.ly/sei-921/express-auth-api)
+Take a look at [this repo](https://git.generalassemb.ly/seir-201/express-auth-api)
 to learn about user authentication/authorization.
 
 ## Submission
@@ -283,7 +283,7 @@ using [PrettierJS](https://github.com/prettier/prettier).
 ## Plagiarism
 
 Take a moment to re-familiarize yourself with the
-[plagiarism policy](https://git.generalassemb.ly/sei-921/course-intro/blob/master/plagiarism.md),
+[plagiarism policy](https://git.generalassemb.ly/seir-201/course-intro/blob/master/plagiarism.md),
 specifically on using work you find online and on work you do with other
 students.
 
