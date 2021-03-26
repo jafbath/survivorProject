@@ -73,7 +73,7 @@ employers eye and get you hired.
 **Deployment Requirements:**
 
 - Your back-end/API must be deployed to Heroku and your front-end must be deployed to
-  GitHub pages or [Heroku](https://git.generalassemb.ly/sei-921/project-2/blob/master/project-setup-and-deployment-guide.md). Applications that are not deployed will be considered
+  GitHub pages or [Heroku](https://git.generalassemb.ly/seir-201/project-2/blob/master/project-setup-and-deployment-guide.md). Applications that are not deployed will be considered
   incomplete.
 
 > We strongly recommend deploying your back-end and front-end separately. This
@@ -220,7 +220,7 @@ If you're struggling to come up with your own project ideas, checkout
 > your own unique version of it.
 
 Once your team selects an idea, the group **must** choose a workflow from the
-[Git Teams & Workflow lesson](https://git.generalassemb.ly/sei-921/git-teams).
+[Git Teams & Workflow lesson](https://git.generalassemb.ly/seir-201/git-team-workflows).
 Be prepared to share your team's plans with your assigned instructor at the
 first round of scrum.
 
