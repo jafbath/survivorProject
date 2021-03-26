@@ -66,7 +66,7 @@ employers eye and get you hired.
   parts of the app is fine, but every team member must have commits in the
   project).
 - Every team must follow a
-  [Git Workflow](https://git.generalassemb.ly/sei2-201/git-team-workflows)
+  [Git Workflow](https://git.generalassemb.ly/seir-201/git-team-workflows)
 - Every team member must speak for roughly the same amount of time during the
   group [presentation](./presentations.md)
 
