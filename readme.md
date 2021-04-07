@@ -1,6 +1,16 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #3: Building a Full Stack MERN Application
 
-In your last project, you learned how to build a frontend React application that used data from a third-party API. In this project you will build a full stack application with a similar React frontend, but with your own backend server and database. 
+## Summary
+
+- This is a team project with pre-assigned teams.
+- [Project Proposals](https://git.generalassemb.ly/SEIR-201/project-3/issues/new?assignees=&labels=&template=project-proposal-submission.md&title=Your+Group+Names+%2B+Squad+Lead) are due on **Monday, March 29 at or before 3:00 PM**.
+- Project Deliverable is due on or before **Monday, April 5 at or before 11:00 AM**.
+- Presentations will be on **Monday, April 5 at 1:30 PM** to the entire cohort.
+- Each team has a total of 5 tokens for support. In order to receive support, you **must** fill out a [troubleshooting issue](https://git.generalassemb.ly/SEIR-201/project-3/issues/new?assignees=esin87&labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and schedule a call with your team during office hours.
+
+## Details
+
+In your last project, you learned how to build a frontend React application that used data from a third-party API. In this project you will build a full stack application with a similar React frontend, but with your own backend server and database.
 
 Your instructors have organized you and your classmates into groups to design
 and build an app with two major components:
@@ -15,9 +25,9 @@ joining a development team during your career. Working collaboratively is a
 learned skill, just like programming. It's important to learn how to work
 together.
 
-***You are highly encouraged to pair-program throughout the project. Check
+**_You are highly encouraged to pair-program throughout the project. Check
 out this [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-feature on VSCode that enables real-time collaboration between developers***
+feature on VSCode that enables real-time collaboration between developers_**
 
 ## Requirements
 
@@ -47,6 +57,7 @@ employers eye and get you hired.
 - You must have at least 4 components
 
 **Project Requirements:**
+
 - You must include a `planning/` directory that sufficiently demonstrates your
   team's planning process.
 - Both your front-end and back-end repos have a README that adequately documents the project.
@@ -55,14 +66,14 @@ employers eye and get you hired.
   parts of the app is fine, but every team member must have commits in the
   project).
 - Every team must follow a
-  [Git Workflow](https://git.generalassemb.ly/sei-921/git-teams)
+  [Git Workflow](https://git.generalassemb.ly/seir-201/git-team-workflows)
 - Every team member must speak for roughly the same amount of time during the
   group [presentation](./presentations.md)
-  
+
 **Deployment Requirements:**
 
 - Your back-end/API must be deployed to Heroku and your front-end must be deployed to
-  GitHub pages or [Heroku](https://git.generalassemb.ly/sei-921/project-2/blob/master/project-setup-and-deployment-guide.md). Applications that are not deployed will be considered
+  GitHub pages or [Heroku](https://git.generalassemb.ly/seir-201/project-2/blob/master/project-setup-and-deployment-guide.md). Applications that are not deployed will be considered
   incomplete.
 
 > We strongly recommend deploying your back-end and front-end separately. This
@@ -80,19 +91,13 @@ Consider whether or not you want to introduce a barrier to entry for your
 application. Does it fit in with the idea of your application? User
 authorization is tricky.
 
-Take a look at [this repo](https://git.generalassemb.ly/sei-921/express-auth-api)
+Take a look at [this repo](https://git.generalassemb.ly/seir-201/express-auth-api)
 to learn about user authentication/authorization.
-
-#### Maps
-
-If your application uses physical locations, consider adding a map **_as a bonus
-feature_** to your application.
-[Check out this Google Maps component library](https://tomchentw.github.io/react-google-maps/).
 
 ## Submission
 
-**_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository. Then, submit
-your project as an issue to this repo.
+**_DO NOT FORK THIS REPOSITORY!_** Create a **new** organization and two repositories. Then, submit
+your project as an issue to the project-3-gallery repository.
 
 Your team must turn in something before presentations begin. However, you are
 welcome to continue working on it over the course of SEI and beyond!
@@ -104,11 +109,11 @@ specific things on which you'd like us to focus when giving feedback.
 
 Your submission must include **all** of the following:
 
-### Project Idea and Initial Planning
+### Project Proposal
 
-***Designate a scrum master for your team.*** The scrum master will act as the project manager 
-for the team and run daily standups to ensure the team is aligned on the most important 
-priorities and deadlines. He/she will also ensure that the work of every individual contributor 
+**_Designate a scrum master for your team._** The scrum master will act as the project manager
+for the team and run daily standups to ensure the team is aligned on the most important
+priorities and deadlines. He/she/they will also ensure that the work of every individual contributor
 on the team is integrated into a single, coherent application.
 
 By the deadline specified in the course schedule, you need to submit:
@@ -116,14 +121,11 @@ By the deadline specified in the course schedule, you need to submit:
 1. Your project idea (a brief 2-3 sentence description of your app)
 2. A list of your models and their properties
 3. Scrum master/project manager's name
-
-These and any other planning assets (wireframes, user stories, etc) should go
-inside a `planning/` directory inside at least one of your project repositories.
+4. Planning assets (wireframes, user stories, etc)
 
 ### Final Application
 
-Your project is due on the last day of Project Week (the exact date and time are in your
-course calendar). Create an issue on this repo containing:
+Your project is due on the last day of Project Week. Create an issue on the project-3-gallery repo containing:
 
 - A link to your deployed application
 - A link to your Project 3 Github repositories (Do not fork this repo)
@@ -132,34 +134,28 @@ The repository for your backend API should include:
 
 - A working JSON API (built by your team) built using Express and Mongoose that
   meets the technical requirements above.
-- Frequent commits dating back to the very beginning of the project.
-- A `readme.md` file in the root of your repo that follows
+- Frequent commits dating back to the very beginning of the project for **EVERY** member of the team. Make sure that if you're using a paired or mob programming model that every contributor is listed in the commit. Follow the [documentation](https://docs.github.com/en/github/committing-changes-to-your-project/creating-a-commit-with-multiple-authors) to learn how to create a commit with multiple authors.
+- A `README.md` file in the root of your repo that follows
   [good standards of documentation](https://git.generalassemb.ly/ga-wdi-lessons/documentation-markdown)
   (i.e. explanations of the technologies used, the approach taken, features,
   installation instructions, unsolved problems, etc.)
-- A `planning/` directory in the root of your repo containing a diagram mapping
-  out your project domain. You are welcome to include other planning documents
-  (e.g., wireframes, user stories).
 - A link to your hosted, working API in the URL section of your Github repo:
 
-> ![The URL section of your Github repo](https://i.imgur.com/QQ7RsfR.gif)
+> ![The URL section of your Github repo](https://media.giphy.com/media/WUsOlSNbPlE72OudJs/giphy.gif)
 
 The repository for the frontend of your application should include:
 
 - A working frontend application (built by your team) built with React and React
   Router that meets the technical requirements above.
 - Frequent commits dating back to the very beginning of the project.
-- A `readme.md` file in the root of your repo that follows
+- A `README.md` file in the root of your repo that follows
   [good standards of documentation](https://git.generalassemb.ly/ga-wdi-lessons/documentation-markdown)
   (i.e. explanations of the technologies used, the approach taken, features,
   installation instructions, unsolved problems, etc.)
-- A `planning/` directory in the root of your repo containing a diagram mapping
-  out your project domain. You are welcome to include other planning documents
-  (e.g., wireframes, user stories).
 - A link to your hosted, working application in the URL section of your Github
   repo:
 
-> ![The URL section of your Github repo](https://i.imgur.com/QQ7RsfR.gif)
+> ![The URL section of your Github repo](https://media.giphy.com/media/WUsOlSNbPlE72OudJs/giphy.gif)
 
 ## Asking For Help
 
@@ -168,6 +164,7 @@ The repository for the frontend of your application should include:
 Once a day, typically in the morning, the scrum master will lead a 10 minute scrum
 meeting with each group to talk about progress and planning. During the standup, each
 person should cover:
+
 - what was worked on the day before
 - what will be worked on that day
 - any obstacles that could jeopardize project deadlines
@@ -176,31 +173,25 @@ person should cover:
 
 Each team will be given 5 (five) tokens, redeemable at any time during regular
 class and Study Hall time (not including evening Office hours), for 20 minutes
-with an instructor. The motivation behind the token system is to give you the 
+with an instructor. The motivation behind the token system is to give you the
 opportunity to solve issues and errors you run in to on your own and with your
 team.
-- Tokens are redeemable during project office hours (see the course schedule).
-If you absolutely need to redeem your tokens outside of these predetermined hours, 
-please direct message your Squad Lead for assistance.
-- Tokens cannot be transferred between groups - there is no black market for tokens.
 
+- Tokens are redeemable by completing a [troubleshooting issue](https://git.generalassemb.ly/SEIR-201/project-3/issues/new?assignees=esin87&labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and schedule a call with your team during office hours.
+  Please direct message your Squad Lead for assistance, if you are unclear about the process.
+- Tokens cannot be transferred between groups - there is no black market for tokens.
 
 ## App Organization
 
 You should split your application into separate repositories, one for your React
 front-end and another for your Node-Express-Mongoose backend API.
 
-[See deploying to Heroku with MongoDB Atlas here](https://git.generalassemb.ly/sei-921/heroku-atlas-deployment).
+[See deploying to Heroku with MongoDB Atlas here](https://git.generalassemb.ly/seir-201/heroku-atlas-deployment).
 
 ## Contribution Guidelines
 
 - Each member of your group **_must have an individual commit history_** to your
-  project's repositories (Multiple commits per group member).
-- One of your repositories (backend or frontend) must include a `planning/`
-  directory with wireframes, user stories, technical goals (mvp, bronze, silver
-  and gold) and the role of each group member in building the application.
-  Specifically, it should include the responsibilities of each member and their
-  contributions to the project.
+  project's repositories (Multiple commits per group member). Make sure that if you're using a paired or mob programming model that every contributor is listed in the commit. Follow the [documentation](https://docs.github.com/en/github/committing-changes-to-your-project/creating-a-commit-with-multiple-authors) to learn how to create a commit with multiple authors.
 - Each member of your group is expected to present for an equal amount of time
   during [project presentations](presentations.md), which last at least 10
   minutes per group.
@@ -229,7 +220,7 @@ If you're struggling to come up with your own project ideas, checkout
 > your own unique version of it.
 
 Once your team selects an idea, the group **must** choose a workflow from the
-[Git Teams & Workflow lesson](https://git.generalassemb.ly/sei-921/git-teams).
+[Git Teams & Workflow lesson](https://git.generalassemb.ly/seir-201/git-team-workflows).
 Be prepared to share your team's plans with your assigned instructor at the
 first round of scrum.
 
@@ -239,15 +230,15 @@ first round of scrum.
 
 - **Designate a scrum master for your team.** The scrum master will act as the project
   manager for the team and run daily standups to ensure the team is aligned on the
-  most important priorities and deadlines. He/she will also ensure that the work of 
+  most important priorities and deadlines. He/she will also ensure that the work of
   every individual contributor on the team is integrated into a single, coherent application.
-- Pick a Scrum Master who is willing to put in the work of managing people toward one cohesive vision. Groups that are      successful get organized behind one mission, with a leader who can rally people to the cause and delegate the right tasks to the right people to get things done. Successful groups also have teammates who are willing to put in the work to achieve the end vision and prioritize the group’s goals. 
-- Pick the Git Workflow that makes the most sense for your group, then pick a Git Manager who acts as air traffic control for your repos. The Git Manager should be the one approving and merging pull requests, and coordinating with everyone to minimize and resolve merge conflicts. 
-- Use a central organizing document like a Trello Board or a Google Doc to keep your plans organized and accessible to the whole group. Invest time up front in planning both the project itself as well your group’s approach — who will be responsible for what parts of the code? When will your group get work done? How and when will you use your tokens? 
-- Try to work on both front- and backend code if possible, as this will be your only full-stack project experience before your capstone. Better yet, try to focus on the area that you need to grow in the most (if servers aren’t your thing yet, work on the backend; if you and React still don’t get along, put in some time on the frontend). 
-- Spend some time on camera with your teammates everyday in addition to pair programming and standups with your squad leader. Google Hangouts is a great option for this, or shorter Zoom sessions. Working with others helps you stay accountable, and teammates are also a great resource. 
-- Aim to hit MVP as early as possible. To that end, plan an MVP for your app that you know is doable with what you have already learned. Commit and deploy early and often. Do not wait until Thursday or Friday to deploy for the first time, as you almost certainly WILL run into big issues. 
-- Remember that this will be one of the two more technically complex projects in each of your portfolios. Spend the time and energy to put a lot of work into making something each one of you can be proud to show off to employers. The code should be clean and functional, and it should have a professional design as well. 
+- Pick a Scrum Master who is willing to put in the work of managing people toward one cohesive vision. Groups that are successful get organized behind one mission, with a leader who can rally people to the cause and delegate the right tasks to the right people to get things done. Successful groups also have teammates who are willing to put in the work to achieve the end vision and prioritize the group’s goals.
+- Pick the Git Workflow that makes the most sense for your group, then pick a Git Manager who acts as air traffic control for your repos. The Git Manager should be the one approving and merging pull requests, and coordinating with everyone to minimize and resolve merge conflicts.
+- Use a central organizing document like a Trello Board or a Google Doc to keep your plans organized and accessible to the whole group. Invest time up front in planning both the project itself as well your group’s approach — who will be responsible for what parts of the code? When will your group get work done? How and when will you use your tokens?
+- Try to work on both front- and backend code if possible, as this will be your only full-stack project experience before your capstone. Better yet, try to focus on the area that you need to grow in the most (if servers aren’t your thing yet, work on the backend; if you and React still don’t get along, put in some time on the frontend).
+- Spend some time on camera with your teammates everyday in addition to pair programming and standups with your squad leader. Google Hangouts is a great option for this, or shorter Zoom sessions. Working with others helps you stay accountable, and teammates are also a great resource.
+- Aim to hit MVP as early as possible. To that end, plan an MVP for your app that you know is doable with what you have already learned. Commit and deploy early and often. Do not wait until Thursday or Friday to deploy for the first time, as you almost certainly WILL run into big issues.
+- Remember that this will be one of the two more technically complex projects in each of your portfolios. Spend the time and energy to put a lot of work into making something each one of you can be proud to show off to employers. The code should be clean and functional, and it should have a professional design as well.
 - **Write pseudocode** before you write actual code. Thinking through the logic
   first helps.
 - Don't hesitate to **write throwaway code** to solve short-term problems.
@@ -292,7 +283,7 @@ using [PrettierJS](https://github.com/prettier/prettier).
 ## Plagiarism
 
 Take a moment to re-familiarize yourself with the
-[plagiarism policy](https://git.generalassemb.ly/sei-921/course-intro/blob/master/plagiarism.md),
+[plagiarism policy](https://git.generalassemb.ly/seir-201/course-intro/blob/master/plagiarism.md),
 specifically on using work you find online and on work you do with other
 students.
 
