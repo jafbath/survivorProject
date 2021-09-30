@@ -3,7 +3,7 @@
 ## Summary
 
 - This is a team project with pre-assigned teams.
-- [Project Proposals](https://git.generalassemb.ly/SEIR-201/project-3/issues/new?assignees=&labels=&template=project-proposal-submission.md&title=Your+Group+Names+%2B+Squad+Lead) are due on **Wednesday, 10/6 at or before 12:00 PM ET**.
+- [Project Proposals](../../../project-3/issues/new?assignees=&labels=&template=project-proposal-submission.md&title=Your+Group+Names+%2B+Squad+Lead) are due on **Wednesday, 10/6 at or before 12:00 PM ET**.
 - Project Deliverable is due on or before **Wednesday, 10/13 at or before 12:00 PM ET**.
 - Presentations will be on **Wednesday, 10/13 at 12:00 PM ET** to the entire cohort.
 - Each team has a total of 5 tokens for support. In order to receive support, you **must** fill out a [troubleshooting issue](../../issues/new?labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and schedule a call with your team during office hours.
@@ -66,14 +66,14 @@ employers eye and get you hired.
   parts of the app is fine, but every team member must have commits in the
   project).
 - Every team must follow a
-  [Git Workflow](https://git.generalassemb.ly/seir-201/git-team-workflows)
+  [Git Workflow](../../../git-team-workflows)
 - Every team member must speak for roughly the same amount of time during the
   group [presentation](./presentations.md)
 
 **Deployment Requirements:**
 
 - Your back-end/API must be deployed to Heroku and your front-end must be deployed to
-  GitHub pages or [Heroku](https://git.generalassemb.ly/seir-201/project-2/blob/master/project-setup-and-deployment-guide.md). Applications that are not deployed will be considered
+  GitHub pages or [Netlify](../../../netlify-deploy-react). Applications that are not deployed will be considered
   incomplete.
 
 > We strongly recommend deploying your back-end and front-end separately. This
@@ -91,7 +91,7 @@ Consider whether or not you want to introduce a barrier to entry for your
 application. Does it fit in with the idea of your application? User
 authorization is tricky.
 
-Take a look at [this repo](https://git.generalassemb.ly/seir-201/express-auth-api)
+Take a look at [this repo](../../../express-auth-api)
 to learn about user authentication/authorization.
 
 ## Submission
@@ -177,7 +177,7 @@ with an instructor. The motivation behind the token system is to give you the
 opportunity to solve issues and errors you run in to on your own and with your
 team.
 
-- Tokens are redeemable by completing a [troubleshooting issue](https://git.generalassemb.ly/SEIR-201/project-3/issues/new?assignees=esin87&labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and schedule a call with your team during office hours.
+- Tokens are redeemable by completing a [troubleshooting issue](../../issues/new?labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and schedule a call with your team during office hours.
   Please direct message your Squad Lead for assistance, if you are unclear about the process.
 - Tokens cannot be transferred between groups - there is no black market for tokens.
 
@@ -186,7 +186,7 @@ team.
 You should split your application into separate repositories, one for your React
 front-end and another for your Node-Express-Mongoose backend API.
 
-[See deploying to Heroku with MongoDB Atlas here](https://git.generalassemb.ly/seir-201/heroku-atlas-deployment).
+[See deploying to Heroku with MongoDB Atlas here](../../../heroku-atlas-deployment).
 
 ## Contribution Guidelines
 
@@ -220,7 +220,7 @@ If you're struggling to come up with your own project ideas, checkout
 > your own unique version of it.
 
 Once your team selects an idea, the group **must** choose a workflow from the
-[Git Teams & Workflow lesson](https://git.generalassemb.ly/seir-201/git-team-workflows).
+[Git Teams & Workflow lesson](../../../git-team-workflows).
 Be prepared to share your team's plans with your assigned instructor at the
 first round of scrum.
 
@@ -283,7 +283,7 @@ using [PrettierJS](https://github.com/prettier/prettier).
 ## Plagiarism
 
 Take a moment to re-familiarize yourself with the
-[plagiarism policy](https://git.generalassemb.ly/seir-201/course-intro/blob/master/plagiarism.md),
+[plagiarism policy](../../../course-intro/blob/master/plagiarism.md),
 specifically on using work you find online and on work you do with other
 students.
 
