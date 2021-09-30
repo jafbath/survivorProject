@@ -3,10 +3,10 @@
 ## Summary
 
 - This is a team project with pre-assigned teams.
-- [Project Proposals](https://git.generalassemb.ly/SEIR-201/project-3/issues/new?assignees=&labels=&template=project-proposal-submission.md&title=Your+Group+Names+%2B+Squad+Lead) are due on **Monday, March 29 at or before 3:00 PM**.
-- Project Deliverable is due on or before **Monday, April 5 at or before 11:00 AM**.
-- Presentations will be on **Monday, April 5 at 1:30 PM** to the entire cohort.
-- Each team has a total of 5 tokens for support. In order to receive support, you **must** fill out a [troubleshooting issue](https://git.generalassemb.ly/SEIR-201/project-3/issues/new?assignees=esin87&labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and schedule a call with your team during office hours.
+- [Project Proposals](https://git.generalassemb.ly/SEIR-201/project-3/issues/new?assignees=&labels=&template=project-proposal-submission.md&title=Your+Group+Names+%2B+Squad+Lead) are due on **Wednesday, 10/6 at or before 12:00 PM ET**.
+- Project Deliverable is due on or before **Wednesday, 10/13 at or before 12:00 PM ET**.
+- Presentations will be on **Wednesday, 10/13 at 12:00 PM ET** to the entire cohort.
+- Each team has a total of 5 tokens for support. In order to receive support, you **must** fill out a [troubleshooting issue](../../issues/new?labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and schedule a call with your team during office hours.
 
 ## Details
 
