@@ -3,10 +3,10 @@
 ## Summary
 
 - This is a team project with pre-assigned teams.
-- [Project Proposals](https://git.generalassemb.ly/SEIR-201/project-3/issues/new?assignees=&labels=&template=project-proposal-submission.md&title=Your+Group+Names+%2B+Squad+Lead) are due on **Monday, March 29 at or before 3:00 PM**.
-- Project Deliverable is due on or before **Monday, April 5 at or before 11:00 AM**.
-- Presentations will be on **Monday, April 5 at 1:30 PM** to the entire cohort.
-- Each team has a total of 5 tokens for support. In order to receive support, you **must** fill out a [troubleshooting issue](https://git.generalassemb.ly/SEIR-201/project-3/issues/new?assignees=esin87&labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and schedule a call with your team during office hours.
+- [Project Proposals](../../../project-3/issues/new?assignees=&labels=&template=project-proposal-submission.md&title=Your+Group+Names+%2B+Squad+Lead) are due on **Wednesday, 10/6 at or before 12:00 PM ET**.
+- Project Deliverable is due on or before **Wednesday, 10/13 at or before 12:00 PM ET**.
+- Presentations will be on **Wednesday, 10/13 at 12:00 PM ET** to the entire cohort.
+- Each team has a total of 5 tokens for support. In order to receive support, you **must** fill out a [troubleshooting issue](../../issues/new?labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and schedule a call with your team during office hours.
 
 ## Details
 
@@ -66,14 +66,14 @@ employers eye and get you hired.
   parts of the app is fine, but every team member must have commits in the
   project).
 - Every team must follow a
-  [Git Workflow](https://git.generalassemb.ly/seir-201/git-team-workflows)
+  [Git Workflow](../../../git-team-workflows)
 - Every team member must speak for roughly the same amount of time during the
   group [presentation](./presentations.md)
 
 **Deployment Requirements:**
 
 - Your back-end/API must be deployed to Heroku and your front-end must be deployed to
-  GitHub pages or [Heroku](https://git.generalassemb.ly/seir-201/project-2/blob/master/project-setup-and-deployment-guide.md). Applications that are not deployed will be considered
+  GitHub pages or [Netlify](../../../netlify-deploy-react). Applications that are not deployed will be considered
   incomplete.
 
 > We strongly recommend deploying your back-end and front-end separately. This
@@ -91,7 +91,7 @@ Consider whether or not you want to introduce a barrier to entry for your
 application. Does it fit in with the idea of your application? User
 authorization is tricky.
 
-Take a look at [this repo](https://git.generalassemb.ly/seir-201/express-auth-api)
+Take a look at [this repo](../../../express-auth-api)
 to learn about user authentication/authorization.
 
 ## Submission
@@ -111,7 +111,7 @@ Your submission must include **all** of the following:
 
 ### Project Proposal
 
-**_Designate a scrum master for your team._** The scrum master will act as the project manager
+**_Designate a scrum lead for your team._** The scrum lead will act as the project manager
 for the team and run daily standups to ensure the team is aligned on the most important
 priorities and deadlines. He/she/they will also ensure that the work of every individual contributor
 on the team is integrated into a single, coherent application.
@@ -120,7 +120,7 @@ By the deadline specified in the course schedule, you need to submit:
 
 1. Your project idea (a brief 2-3 sentence description of your app)
 2. A list of your models and their properties
-3. Scrum master/project manager's name
+3. Scrum lead/project manager's name
 4. Planning assets (wireframes, user stories, etc)
 
 ### Final Application
@@ -161,7 +161,7 @@ The repository for the frontend of your application should include:
 
 ### Scrums
 
-Once a day, typically in the morning, the scrum master will lead a 10 minute scrum
+Once a day, typically in the morning, the scrum lead will lead a 10 minute scrum
 meeting with each group to talk about progress and planning. During the standup, each
 person should cover:
 
@@ -177,7 +177,7 @@ with an instructor. The motivation behind the token system is to give you the
 opportunity to solve issues and errors you run in to on your own and with your
 team.
 
-- Tokens are redeemable by completing a [troubleshooting issue](https://git.generalassemb.ly/SEIR-201/project-3/issues/new?assignees=esin87&labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and schedule a call with your team during office hours.
+- Tokens are redeemable by completing a [troubleshooting issue](../../issues/new?labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and schedule a call with your team during office hours.
   Please direct message your Squad Lead for assistance, if you are unclear about the process.
 - Tokens cannot be transferred between groups - there is no black market for tokens.
 
@@ -186,7 +186,7 @@ team.
 You should split your application into separate repositories, one for your React
 front-end and another for your Node-Express-Mongoose backend API.
 
-[See deploying to Heroku with MongoDB Atlas here](https://git.generalassemb.ly/seir-201/heroku-atlas-deployment).
+[See deploying to Heroku with MongoDB Atlas here](../../../heroku-atlas-deployment).
 
 ## Contribution Guidelines
 
@@ -220,7 +220,7 @@ If you're struggling to come up with your own project ideas, checkout
 > your own unique version of it.
 
 Once your team selects an idea, the group **must** choose a workflow from the
-[Git Teams & Workflow lesson](https://git.generalassemb.ly/seir-201/git-team-workflows).
+[Git Teams & Workflow lesson](../../../git-team-workflows).
 Be prepared to share your team's plans with your assigned instructor at the
 first round of scrum.
 
@@ -228,11 +228,11 @@ first round of scrum.
 
 ### Process
 
-- **Designate a scrum master for your team.** The scrum master will act as the project
+- **Designate a scrum lead for your team.** The scrum lead will act as the project
   manager for the team and run daily standups to ensure the team is aligned on the
-  most important priorities and deadlines. He/she will also ensure that the work of
+  most important priorities and deadlines. They will also ensure that the work of
   every individual contributor on the team is integrated into a single, coherent application.
-- Pick a Scrum Master who is willing to put in the work of managing people toward one cohesive vision. Groups that are successful get organized behind one mission, with a leader who can rally people to the cause and delegate the right tasks to the right people to get things done. Successful groups also have teammates who are willing to put in the work to achieve the end vision and prioritize the group’s goals.
+- Pick a Scrum Lead who is willing to put in the work of managing people toward one cohesive vision. Groups that are successful get organized behind one mission, with a leader who can rally people to the cause and delegate the right tasks to the right people to get things done. Successful groups also have teammates who are willing to put in the work to achieve the end vision and prioritize the group’s goals.
 - Pick the Git Workflow that makes the most sense for your group, then pick a Git Manager who acts as air traffic control for your repos. The Git Manager should be the one approving and merging pull requests, and coordinating with everyone to minimize and resolve merge conflicts.
 - Use a central organizing document like a Trello Board or a Google Doc to keep your plans organized and accessible to the whole group. Invest time up front in planning both the project itself as well your group’s approach — who will be responsible for what parts of the code? When will your group get work done? How and when will you use your tokens?
 - Try to work on both front- and backend code if possible, as this will be your only full-stack project experience before your capstone. Better yet, try to focus on the area that you need to grow in the most (if servers aren’t your thing yet, work on the backend; if you and React still don’t get along, put in some time on the frontend).
@@ -283,7 +283,7 @@ using [PrettierJS](https://github.com/prettier/prettier).
 ## Plagiarism
 
 Take a moment to re-familiarize yourself with the
-[plagiarism policy](https://git.generalassemb.ly/seir-201/course-intro/blob/master/plagiarism.md),
+[plagiarism policy](../../../course-intro/blob/master/plagiarism.md),
 specifically on using work you find online and on work you do with other
 students.
 
