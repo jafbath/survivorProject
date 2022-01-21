@@ -3,14 +3,14 @@
 ## Summary
 
 - This is a team project with pre-assigned teams.
-- [Project Proposals](../../../project-3/issues/new?assignees=&labels=&template=project-proposal-submission.md&title=Your+Group+Names+%2B+Squad+Lead) are due on **Wednesday, 10/6 at or before 12:00 PM ET**.
-- Project Deliverable is due on or before **Wednesday, 10/13 at or before 12:00 PM ET**.
-- Presentations will be on **Wednesday, 10/13 at 12:00 PM ET** to the entire cohort.
-- Each team has a total of 5 tokens for support. In order to receive support, you **must** fill out a [troubleshooting issue](../../issues/new?labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and schedule a call with your team during office hours.
+- [Project Proposals](../../../project-3/issues/new?assignees=&labels=&template=project-proposal-submission.md&title=Your+Group+Names+%2B+Squad+Lead) are due on **Tuesday, 1/25 at or before 12:00 PM ET**.
+- Project Deliverable is due on or before **Monday, 1/31 at or before 1:00 PM ET**.
+- Presentations will be on **Monday, 1/31 at 2:00 PM ET** to the entire cohort.
+- Each team has a total of 5 tokens for support. In order to receive support, you **must** fill out a [troubleshooting issue](../../issues/new?labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and help debug your issue, with a Zoom call with your team during scheduled office hours.
 
 ## Details
 
-In your last project, you learned how to build a frontend React application that used data from a third-party API. In this project you will build a full stack application with a similar React frontend, but with your own backend server and database.
+In your last project, you learned how to build a frontend React application that used data from a third-party API. In this project you will build a full stack application with a similar React frontend, but with your own backend application (server and database).
 
 Your instructors have organized you and your classmates into groups to design
 and build an app with two major components:
@@ -41,7 +41,8 @@ employers eye and get you hired.
 **Back-End Requirements:**
 
 - Your back-end must be a Node, Express, and Mongoose API with at least 1
-  non-user models. No associations are required.
+  non-user model. No associations are required.
+- Your back-end must follow RESTful architecture in the naming and functionality of available endpoints.
 - You must have Create, Read, Update, and Destroy functionality built throughout the
   app (i.e. You don't need full CRUD on every model, just full CRUD throughout
   your models where it makes sense).
@@ -76,7 +77,7 @@ employers eye and get you hired.
   GitHub pages or [Netlify](../../../netlify-deploy-react). Applications that are not deployed will be considered
   incomplete.
 
-> We strongly recommend deploying your back-end and front-end separately. This
+> We recommend deploying your back-end and front-end separately, as we've taught in class. This
 > will make it far easier to debug your deployed applications and manage your
 > deployments.
 
@@ -121,11 +122,11 @@ By the deadline specified in the course schedule, you need to submit:
 1. Your project idea (a brief 2-3 sentence description of your app)
 2. A list of your models and their properties
 3. Scrum lead/project manager's name
-4. Planning assets (wireframes, user stories, etc)
+4. Planning assets (wireframes, user stories, req-res cycle diagram, etc.)
 
 ### Final Application
 
-Your project is due on the last day of Project Week. Create an issue on the project-3-gallery repo containing:
+Your project is due on the date specified in your course schedule. Create an issue on the project-3-gallery repo containing:
 
 - A link to your deployed application
 - A link to your Project 3 Github repositories (Do not fork this repo)
@@ -169,13 +170,15 @@ person should cover:
 - what will be worked on that day
 - any obstacles that could jeopardize project deadlines
 
+Your instructional team squad lead will attempt to be at those meetings, schedule allowing! 
+
 ### In-person Support
 
 Each team will be given 5 (five) tokens, redeemable at any time during regular
 class and Study Hall time (not including evening Office hours), for 20 minutes
 with an instructor. The motivation behind the token system is to give you the
 opportunity to solve issues and errors you run in to on your own and with your
-team.
+team, and to decide together when to seek assistance from the instructional team. 
 
 - Tokens are redeemable by completing a [troubleshooting issue](../../issues/new?labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and schedule a call with your team during office hours.
   Please direct message your Squad Lead for assistance, if you are unclear about the process.
