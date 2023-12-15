@@ -4,15 +4,14 @@
 
 - This is a team project with pre-assigned teams.
 - [Project Proposals](../../../project-3/issues/new?assignees=&labels=&template=project-proposal-submission.md&title=Your+Group+Names+%2B+Squad+Lead) are due on **Tuesday, 1/25 at or before 12:00 PM ET**.
-- Project Deliverable is due on or before **Monday, 1/31 at or before 1:00 PM ET**.
-- Presentations will be on **Monday, 1/31 at 2:00 PM ET** to the entire cohort.
-- Each team has a total of 5 tokens for support. In order to receive support, you **must** fill out a [troubleshooting issue](../../issues/new?labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and help debug your issue, with a Zoom call with your team during scheduled office hours.
+- Project Deliverable is due on or before **Saturday, 1/06 at or before 9:00 AM ET**.
+- Presentations will be on **Saturday, 1/06 at 10:00 AM ET**.
 
 ## Details
 
-In your last project, you learned how to build a frontend React application that used data from a third-party API. In this project you will build a full stack application with a similar React frontend, but with your own backend application (server and database).
+In your last project, you learned how to build an express/node/mongoose application. In this project you will build a full stack application with a React frontend, and a node/express/mongoose backend (server and database).
 
-Your instructors have organized you and your classmates into groups to design
+We have organized you into groups of 3 to design
 and build an app with two major components:
 
 1. An API of your own design (built using Node, Express, and Mongoose) that
@@ -73,13 +72,7 @@ employers eye and get you hired.
 
 **Deployment Requirements:**
 
-- Your back-end/API must be deployed to Heroku and your front-end must be deployed to
-  GitHub pages or [Netlify](../../../netlify-deploy-react). Applications that are not deployed will be considered
-  incomplete.
-
-> We recommend deploying your back-end and front-end separately, as we've taught in class. This
-> will make it far easier to debug your deployed applications and manage your
-> deployments.
+- Your back-end/API must be deployed to [Render](https://render.com/) and your front-end must be deployed to [Netlify](https://www.netlify.com/).
 
 ### Bonus Requirements
 
@@ -91,9 +84,6 @@ technical requirements for this project.
 Consider whether or not you want to introduce a barrier to entry for your
 application. Does it fit in with the idea of your application? User
 authorization is tricky.
-
-Take a look at [this repo](../../../express-auth-api)
-to learn about user authentication/authorization.
 
 ## Submission
 
@@ -170,19 +160,7 @@ person should cover:
 - what will be worked on that day
 - any obstacles that could jeopardize project deadlines
 
-Your instructional team squad lead will attempt to be at those meetings, schedule allowing! 
-
-### In-person Support
-
-Each team will be given 5 (five) tokens, redeemable at any time during regular
-class and Study Hall time (not including evening Office hours), for 20 minutes
-with an instructor. The motivation behind the token system is to give you the
-opportunity to solve issues and errors you run in to on your own and with your
-team, and to decide together when to seek assistance from the instructional team. 
-
-- Tokens are redeemable by completing a [troubleshooting issue](../../issues/new?labels=bug&template=project-troubleshooting-request.md&title=BUG+DESCRIPTION). The next instructor in the support queue will reach out and schedule a call with your team during office hours.
-  Please direct message your Squad Lead for assistance, if you are unclear about the process.
-- Tokens cannot be transferred between groups - there is no black market for tokens.
+Your instructional team squad lead will attempt to be at those meetings, schedule allowing!
 
 ## App Organization
 

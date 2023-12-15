@@ -48,7 +48,3 @@ answering questions during the Q & A. We suggest the following structure:
 - What worked well?
 - What didn't?
 - What features would you like to add?
-
-## Presentation Schedule
-
-Presentations will take place from 1:30pm - 3:00pm ET in our classroom Zoom.
