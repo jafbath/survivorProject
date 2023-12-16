@@ -3,7 +3,7 @@
 ## Summary
 
 - This is a team project with pre-assigned teams.
-- [Project Proposals](../../../project-3/issues/new?assignees=&labels=&template=project-proposal-submission.md&title=Your+Group+Names+%2B+Squad+Lead) are due on **Tuesday, 1/25 at or before 12:00 PM ET**.
+- [Project Proposals](../../../project-3/issues/new?assignees=&labels=&template=project-proposal-submission.md&title=Your+Group+Names+%2B+Squad+Lead) are due on **Monday, 12/18 at or before 11:00 PM ET**.
 - Project Deliverable is due on or before **Saturday, 1/06 at or before 9:00 AM ET**.
 - Presentations will be on **Saturday, 1/06 at 10:00 AM ET**.
 
@@ -11,7 +11,7 @@
 
 In your last project, you learned how to build an express/node/mongoose application. In this project you will build a full stack application with a React frontend, and a node/express/mongoose backend (server and database).
 
-We have organized you into groups of 3 to design
+We have organized you into groups of 4 to design
 and build an app with two major components:
 
 1. An API of your own design (built using Node, Express, and Mongoose) that
