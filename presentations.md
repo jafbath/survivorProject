@@ -39,7 +39,7 @@ answering questions during the Q & A. We suggest the following structure:
 
 ## The Week
 
-- What was your week like?
+- What were your project weeks like?
 - Did you feel the Emotional Cycle of Change?
 - How did you work together?
 
