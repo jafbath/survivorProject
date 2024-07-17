@@ -146,8 +146,6 @@ The repository for the frontend of your application should include:
   installation instructions, unsolved problems, etc.)
 - A link to your hosted, working application in the URL section of your Github
   repo:
-
-> ![The URL section of your Github repo](https://media.giphy.com/media/WUsOlSNbPlE72OudJs/giphy.gif)
 > You can also look at [GitHub's guide to formatting markdowns](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ## Asking For Help
