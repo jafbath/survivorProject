@@ -3,16 +3,15 @@
 ## Summary
 
 - This is a team project with pre-assigned teams.
-- [Project Proposals](../../../project-3/issues/new?assignees=&labels=&template=project-proposal-submission.md&title=Your+Group+Names+%2B+Squad+Lead) are due on **Monday, 12/18 at or before 11:00 PM ET**.
-- Project Deliverable is due on or before **Saturday, 1/06 at or before 9:00 AM ET**.
-- Presentations will be on **Saturday, 1/06 at 10:00 AM ET**.
+- [Project Proposals](../../../project-3/issues/new?assignees=&labels=&template=project-proposal-submission.md&title=Your+Group+Names+%2B+Squad+Lead) are due on **Tuesday, 7/23 at or before 11:00 PM ET**.
+- Project Deliverable is due on or before **Wednesday, 7/31 at or before 6:00 PM ET**.
+- Presentations will be on **Wednesday, 7/31 at 6:30 PM ET**.
 
 ## Details
 
 In your last project, you learned how to build an express/node/mongoose application. In this project you will build a full stack application with a React frontend, and a node/express/mongoose backend (server and database).
 
-We have organized you into groups of 4 to design
-and build an app with two major components:
+We have organized you into groups of 3 to design and build an app with two major components:
 
 1. An API of your own design (built using Node, Express, and Mongoose) that
    serves JSON.
@@ -27,6 +26,8 @@ together.
 **_You are highly encouraged to pair-program throughout the project. Check
 out this [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 feature on VSCode that enables real-time collaboration between developers_**
+
+**_If you are looking for something web based check out [Github Codespaces](https://github.com/codespaces) you can even go between github codespaces and vs code!_**
 
 ## Requirements
 
@@ -66,7 +67,7 @@ employers eye and get you hired.
   parts of the app is fine, but every team member must have commits in the
   project).
 - Every team must follow a
-  [Git Workflow](../../../git-team-workflows)
+  [Git Workflow](https://git.generalassemb.ly/SEBPT-EC-319/Git-GitHub-Workflow)
 - Every team member must speak for roughly the same amount of time during the
   group [presentation](./presentations.md)
 
@@ -127,7 +128,7 @@ The repository for your backend API should include:
   meets the technical requirements above.
 - Frequent commits dating back to the very beginning of the project for **EVERY** member of the team. Make sure that if you're using a paired or mob programming model that every contributor is listed in the commit. Follow the [documentation](https://docs.github.com/en/github/committing-changes-to-your-project/creating-a-commit-with-multiple-authors) to learn how to create a commit with multiple authors.
 - A `README.md` file in the root of your repo that follows
-  [good standards of documentation](https://git.generalassemb.ly/ga-wdi-lessons/documentation-markdown)
+  [good standards of documentation](https://git.generalassemb.ly/SEBPT-EC-319/markdown-doc)
   (i.e. explanations of the technologies used, the approach taken, features,
   installation instructions, unsolved problems, etc.)
 - A link to your hosted, working API in the URL section of your Github repo:
@@ -140,13 +141,14 @@ The repository for the frontend of your application should include:
   Router that meets the technical requirements above.
 - Frequent commits dating back to the very beginning of the project.
 - A `README.md` file in the root of your repo that follows
-  [good standards of documentation](https://git.generalassemb.ly/ga-wdi-lessons/documentation-markdown)
+  [good standards of documentation](https://git.generalassemb.ly/SEBPT-EC-319/markdown-doc)
   (i.e. explanations of the technologies used, the approach taken, features,
   installation instructions, unsolved problems, etc.)
 - A link to your hosted, working application in the URL section of your Github
   repo:
 
 > ![The URL section of your Github repo](https://media.giphy.com/media/WUsOlSNbPlE72OudJs/giphy.gif)
+> You can also look at [GitHub's guide to formatting markdowns](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ## Asking For Help
 
@@ -167,7 +169,7 @@ Your instructional team squad lead will attempt to be at those meetings, schedul
 You should split your application into separate repositories, one for your React
 front-end and another for your Node-Express-Mongoose backend API.
 
-[See deploying to Heroku with MongoDB Atlas here](../../../heroku-atlas-deployment).
+[See deploying to Render here](https://docs.render.com/deploy-node-express-app).
 
 ## Contribution Guidelines
 
@@ -201,7 +203,7 @@ If you're struggling to come up with your own project ideas, checkout
 > your own unique version of it.
 
 Once your team selects an idea, the group **must** choose a workflow from the
-[Git Teams & Workflow lesson](../../../git-team-workflows).
+[Git Teams & Workflow lesson](https://git.generalassemb.ly/SEBPT-EC-319/Git-GitHub-Workflow).
 Be prepared to share your team's plans with your assigned instructor at the
 first round of scrum.
 
@@ -264,7 +266,7 @@ using [PrettierJS](https://github.com/prettier/prettier).
 ## Plagiarism
 
 Take a moment to re-familiarize yourself with the
-[plagiarism policy](../../../course-intro/blob/master/plagiarism.md),
+[plagiarism policy](https://git.generalassemb.ly/SEBPT-EC-319/SEBPT-EC-319-Course-Materials/blob/main/Unit_1/week_01/1_tue/instructor_notes/plagiarism.md),
 specifically on using work you find online and on work you do with other
 students.
 
