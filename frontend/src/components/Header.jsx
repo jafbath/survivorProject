@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Header = (props) => {
   return (
       <nav className='nav'>
-          <Link to="/">
+          <Link to="/contestants">
               <div>Survivor Fantasy League</div>
           </Link>
       </nav>

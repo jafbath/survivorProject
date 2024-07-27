@@ -18,13 +18,13 @@ const Show = (props) => {
   const handleSubmit = (event) => {
     event.preventDefault();
     props.updateContestants(editForm, contestant._id);
-    navigate("/");
+    navigate("/contestants");
   };
 
   const removeContestant = (e) => {
     e.preventDefault()
     props.deleteContestants(contestant._id);
-    navigate("/");
+    navigate("/contestants");
   };
 
   return (

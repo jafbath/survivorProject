@@ -61,7 +61,7 @@ const Home = (props) => {
   return (
     <main>
         <Routes>
-            <Route path="/" element={<Index 
+            <Route path="/contestants" element={<Index 
                 contestants={contestants} 
                 createContestants={createContestants}/>}/>
             <Route path="/contestant/:id" element={<Show
