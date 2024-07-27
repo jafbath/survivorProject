@@ -64,7 +64,7 @@ const Home = (props) => {
             <Route path="/" element={<Index 
                 contestants={contestants} 
                 createContestants={createContestants}/>}/>
-            <Route path="/contestants/:id" element={<Show
+            <Route path="/contestant/:id" element={<Show
                 contestants={contestants} 
                 updateContestants={updateContestants} 
                 deleteContestants={deleteContestants}
