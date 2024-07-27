@@ -6,7 +6,7 @@ import Show from '../pages/Show.jsx'
 const Home = (props) => {
   const [contestants, setContestants] = useState(null)
 
-  const URL = 'http://localhost:8080/contestants/'
+  const URL = 'http://localhost:4000/contestant/'
 
   //fetches all contestants from our API backend
   const getContestants = async () => {
