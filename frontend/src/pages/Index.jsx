@@ -51,7 +51,7 @@ function Index(props) {
     const loaded = () => {
         return props.contestants.map((contestant) => (
             <div key={contestant._id} className="contestant">
-                <Link to={`/contestants/${contestant._id}`}>
+                <Link to={`/contestant/${contestant._id}`}>
                     <h1>{contestant.name}</h1>
                 </Link>
                 <img src={contestant.image} alt={contestant.name} />
