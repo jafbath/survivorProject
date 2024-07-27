@@ -6,7 +6,7 @@ function Index(props) {
     const [newForm, setNewForm] = useState({
         name: "",
         wins: 0,
-        seasons: 0,
+        totalSeasonsPlayed: 0,
         image: "",
         challengeWins: 0,
         votesAgainst: 0,
@@ -33,7 +33,7 @@ function Index(props) {
         setNewForm({
             name: "",
             wins: 0,
-            seasons: 0,
+            totalSeasonsPlayed: 0,
             image: "",
             challengeWins: 0,
             votesAgainst: 0,
@@ -87,8 +87,8 @@ function Index(props) {
                 Seasons played:
                 <input
                     type="number"
-                    value={newForm.seasons}
-                    name="seasons"
+                    value={newForm.totalSeasonsPlayed}
+                    name="totalSeasonsPlayed"
                     placeholder="seasons"
                     onChange={handleChange}
                 />

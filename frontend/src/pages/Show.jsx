@@ -48,6 +48,14 @@ const Show = (props) => {
           placeholder="strength"
           onChange={handleChange}
         />
+      
+        <input
+          type="number"
+          value={editForm.totalSeasonsPlayed}
+          name="totalSeasonsPlayed"
+          placeholder="seasons"
+          onChange={handleChange}
+        />
         <input type="submit" value="Update Contestant" />
       </form>
     </div>
