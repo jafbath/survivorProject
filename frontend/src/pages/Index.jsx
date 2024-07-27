@@ -76,13 +76,15 @@ function Index(props) {
                     placeholder="image URL"
                     onChange={handleChange}
                 />
+                Wins:
                 <input
                     type="number"
                     value={newForm.wins}
                     name="wins"
                     placeholder="wins"
                     onChange={handleChange}
-                />
+                /> 
+                Seasons:
                 <input
                     type="number"
                     value={newForm.seasons}
@@ -90,6 +92,7 @@ function Index(props) {
                     placeholder="seasons"
                     onChange={handleChange}
                 />
+                Challenge Wins:
                 <input
                     type="number"
                     value={newForm.challengeWins}
@@ -97,6 +100,7 @@ function Index(props) {
                     placeholder="challenge wins"
                     onChange={handleChange}
                 />
+                Votes Against:
                 <input
                     type="number"
                     value={newForm.votesAgainst}
