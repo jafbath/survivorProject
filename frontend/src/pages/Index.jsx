@@ -10,7 +10,7 @@ function Index(props) {
         image: "",
         challengeWins: 0,
         votesAgainst: 0,
-        daysLasted: "",
+        daysLasted: 0,
         strength: "",
         quote: ""
     });
@@ -37,7 +37,7 @@ function Index(props) {
             image: "",
             challengeWins: 0,
             votesAgainst: 0,
-            daysLasted: "",
+            daysLasted: 0,
             strength: "",
             quote: ""
         });
@@ -108,8 +108,9 @@ function Index(props) {
                     placeholder="votes against"
                     onChange={handleChange}
                 />
+                Days Lasted
                 <input
-                    type="text"
+                    type="number"
                     value={newForm.daysLasted}
                     name="daysLasted"
                     placeholder="Days Lasted"
