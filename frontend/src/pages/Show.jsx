@@ -30,9 +30,15 @@ const Show = (props) => {
   return (
     <div className="contestant">
       <h1>{contestant.name}</h1>
+      <h3>Number of Wins: {contestant.wins}</h3>
+      <h3>Total Seasons Played: {contestant.totalSeasonsPlayed}</h3>
+      <h3>Challenge Wins: {contestant.challengeWins}</h3>
+      <h3>Votes Against: {contestant.votesAgainst}</h3>
+      <h3>Days Lasted: {contestant.daysLasted}</h3>
+      <h3>Quote: {contestant.quote}</h3>
       <img src={contestant.image} alt={contestant.name} />
       <button id="delete" onClick={removeContestant}>
-        DELETE
+        Delete Contestant
       </button>
       <form onSubmit={handleSubmit}>
         <input
