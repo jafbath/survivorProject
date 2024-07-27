@@ -30,7 +30,6 @@ const Show = (props) => {
   return (
     <div className="contestant">
       <h1>{contestant.name}</h1>
-      <h2>{contestant.title}</h2>
       <img src={contestant.image} alt={contestant.name} />
       <button id="delete" onClick={removeContestant}>
         DELETE
@@ -38,23 +37,9 @@ const Show = (props) => {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          value={editForm.name}
-          name="name"
-          placeholder="name"
-          onChange={handleChange}
-        />
-        <input
-          type="text"
-          value={editForm.image}
-          name="image"
-          placeholder="image URL"
-          onChange={handleChange}
-        />
-        <input
-          type="text"
-          value={editForm.title}
-          name="title"
-          placeholder="title"
+          value={editForm.strength}
+          name="strength"
+          placeholder="strength"
           onChange={handleChange}
         />
         <input type="submit" value="Update Contestant" />

@@ -6,11 +6,9 @@ const ContestantSchema = new mongoose.Schema({
     seasons: Number,
     image: String,
     challengeWins: Number,
-    idolsFound: Number,
     votesAgainst: Number,
     daysLasted: Number,
     strength: String,
-    weakness: String,
     quote: String,
 });
 
