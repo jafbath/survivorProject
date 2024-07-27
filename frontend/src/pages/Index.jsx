@@ -66,7 +66,7 @@ function Index(props) {
                     type="text"
                     value={newForm.name}
                     name="name"
-                    placeholder="name"
+                    placeholder="Name"
                     onChange={handleChange}
                 />
                 <input
@@ -84,7 +84,7 @@ function Index(props) {
                     placeholder="wins"
                     onChange={handleChange}
                 /> 
-                Seasons:
+                Seasons played:
                 <input
                     type="number"
                     value={newForm.seasons}
@@ -113,21 +113,21 @@ function Index(props) {
                     type="number"
                     value={newForm.daysLasted}
                     name="daysLasted"
-                    placeholder="days lasted"
+                    placeholder="Days Lasted"
                     onChange={handleChange}
                 />
                 <input
                     type="text"
                     value={newForm.strength}
                     name="strength"
-                    placeholder="strength"
+                    placeholder="Strength(s)"
                     onChange={handleChange}
                 />
                 <input
                     type="text"
                     value={newForm.quote}
                     name="quote"
-                    placeholder="quote"
+                    placeholder="Memorable Quote"
                     onChange={handleChange}
                 />
                 <input type="submit" value="Create Contestant" />

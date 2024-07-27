@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const ContestantSchema = new mongoose.Schema({
     name: String,
     wins: Number,
-    seasons: Number,
+    totalSeasonsPlayed: Number,
     image: String,
     challengeWins: Number,
     votesAgainst: Number,
