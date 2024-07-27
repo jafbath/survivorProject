@@ -9,11 +9,9 @@ function Index(props) {
         seasons: 0,
         image: "",
         challengeWins: 0,
-        idolsFound: 0,
         votesAgainst: 0,
         daysLasted: "",
         strength: "",
-        weakness: "",
         quote: ""
     });
 
@@ -22,7 +20,7 @@ function Index(props) {
         const { name, value } = event.target;
         setNewForm((prevForm) => ({
             ...prevForm,
-            [name]: ["wins", "seasons", "challengeWins", "idolsFound", "votesAgainst"].includes(name)
+            [name]: ["wins", "seasons", "challengeWins", "votesAgainst"].includes(name)
                 ? Number(value)
                 : value
         }));
@@ -38,11 +36,9 @@ function Index(props) {
             seasons: 0,
             image: "",
             challengeWins: 0,
-            idolsFound: 0,
             votesAgainst: 0,
             daysLasted: "",
             strength: "",
-            weakness: "",
             quote: ""
         });
     };
@@ -80,13 +76,15 @@ function Index(props) {
                     placeholder="image URL"
                     onChange={handleChange}
                 />
+                Wins:
                 <input
                     type="number"
                     value={newForm.wins}
                     name="wins"
                     placeholder="wins"
                     onChange={handleChange}
-                />
+                /> 
+                Seasons:
                 <input
                     type="number"
                     value={newForm.seasons}
@@ -94,6 +92,7 @@ function Index(props) {
                     placeholder="seasons"
                     onChange={handleChange}
                 />
+                Challenge Wins:
                 <input
                     type="number"
                     value={newForm.challengeWins}
@@ -101,13 +100,7 @@ function Index(props) {
                     placeholder="challenge wins"
                     onChange={handleChange}
                 />
-                <input
-                    type="number"
-                    value={newForm.idolsFound}
-                    name="idolsFound"
-                    placeholder="idols found"
-                    onChange={handleChange}
-                />
+                Votes Against:
                 <input
                     type="number"
                     value={newForm.votesAgainst}
@@ -127,13 +120,6 @@ function Index(props) {
                     value={newForm.strength}
                     name="strength"
                     placeholder="strength"
-                    onChange={handleChange}
-                />
-                <input
-                    type="text"
-                    value={newForm.weakness}
-                    name="weakness"
-                    placeholder="weakness"
                     onChange={handleChange}
                 />
                 <input
