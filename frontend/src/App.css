@@ -40,3 +40,69 @@
 .read-the-docs {
   color: #888;
 }
+
+.title-text {
+  font-size: 3em;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  color: transparent;
+  overflow: hidden;
+  line-height: 1.5;
+}
+
+.title-text span {
+  position: relative;
+  background: linear-gradient(45deg, #6f4f28, #d4a300, #6f4f28);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.title-text::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  height: 100%;
+  width: 200%;
+  background: linear-gradient(45deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+  animation: shine 2s forwards;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.form-header {
+  font-size: 3em;
+  font-weight: bold;
+  position: relative;
+  background: linear-gradient(45deg, #6f4f28, #d4a300, #6f4f28);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+  -webkit-text-stroke: 1px rgba(215, 215, 215, 0.7);
+}
+
+@keyframes shine {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+.button-text {
+  font-family: "Stick", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-text:hover {
+  background: rgba(0, 0, 0, 0.7);
+}

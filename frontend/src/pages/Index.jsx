@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 function Index(props) {
-    // state to hold formData
     const [newForm, setNewForm] = useState({
         name: "",
         wins: 0,
@@ -15,18 +14,16 @@ function Index(props) {
         quote: ""
     });
 
-    // handleChange function for form
     const handleChange = (event) => {
         const { name, value } = event.target;
         setNewForm((prevForm) => ({
             ...prevForm,
-            [name]: ["wins", "seasons", "challengeWins", "votesAgainst"].includes(name)
+            [name]: ["wins", "totalSeasonsPlayed", "challengeWins", "votesAgainst", "daysLasted"].includes(name)
                 ? Number(value)
                 : value
         }));
     };
 
-    // handle submit function for form
     const handleSubmit = (event) => {
         event.preventDefault();
         props.createContestants(newForm);
@@ -43,16 +40,19 @@ function Index(props) {
         });
     };
 
-    // loaded function
     const loaded = () => {
-        return props.contestants.map((contestant) => (
-            <div key={contestant._id} className="contestant">
-                <Link to={`/contestant/${contestant._id}`}>
-                    <h1>{contestant.name}</h1>
-                </Link>
-                <img src={contestant.image} alt={contestant.name} />
+        return (
+            <div className="grid-container">
+                {props.contestants.map((contestant) => (
+                    <div key={contestant._id} className="contestant">
+                        <Link to={`/contestant/${contestant._id}`}>
+                            <h1 className="contestant-name">{contestant.name}</h1>
+                        </Link>
+                        <img src={contestant.image} alt={contestant.name} />
+                    </div>
+                ))}
             </div>
-        ));
+        );
     };
 
     const loading = () => {
@@ -60,8 +60,12 @@ function Index(props) {
     };
 
     return (
-        <section>
-            <form onSubmit={handleSubmit}>
+        <div className="header-container">
+            <img src="https://64.media.tumblr.com/66b98a29f5298e8e2836eb46d3c2d5fc/2163af1d83ec4ac2-41/s540x810/80f9623b2e1940ecddd28126687a9fd4b36be543.pnj" alt="Survivor" className="title-image" />
+            {props.contestants ? loaded() : loading()}
+
+            <h1 className="form-header">Add a new player here:</h1>
+            <form onSubmit={handleSubmit} className="add-player-form">
                 <input
                     type="text"
                     value={newForm.name}
@@ -83,7 +87,7 @@ function Index(props) {
                     name="wins"
                     placeholder="wins"
                     onChange={handleChange}
-                /> 
+                />
                 Seasons played:
                 <input
                     type="number"
@@ -130,10 +134,9 @@ function Index(props) {
                     placeholder="Memorable Quote"
                     onChange={handleChange}
                 />
-                <input type="submit" value="Create Contestant" />
+                <input type="submit" value="Create Contestant" className="button-text"/>
             </form>
-            {props.contestants ? loaded() : loading()}
-        </section>
+        </div>
     );
 }
 

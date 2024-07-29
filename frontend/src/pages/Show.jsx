@@ -1,16 +1,16 @@
 import { useState } from "react";
-import {useParams, useNavigate} from "react-router-dom"
+import {useParams, useNavigate} from "react-router-dom";
+import './Show.css';
 
 const Show = (props) => {
-  const params = useParams()
-  const navigate = useNavigate()
+  const params = useParams();
+  const navigate = useNavigate();
   const id = params.id;
   const contestants = props.contestants;
   const contestant = contestants.find((p) => p._id === id);
 
   const [editForm, setEditForm] = useState(contestant);
 
-  // handleChange function for form
   const handleChange = (event) => {
     setEditForm({ ...editForm, [event.target.name]: event.target.value });
   };
@@ -22,13 +22,13 @@ const Show = (props) => {
   };
 
   const removeContestant = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     props.deleteContestants(contestant._id);
     navigate("/");
   };
 
   return (
-    <div className="contestant">
+    <div className="contestant-detail">
       <h1>{contestant.name}</h1>
       <h3>Number of Wins: {contestant.wins}</h3>
       <h3>Total Seasons Played: {contestant.totalSeasonsPlayed}</h3>
@@ -37,23 +37,20 @@ const Show = (props) => {
       <h3>Days Lasted: {contestant.daysLasted}</h3>
       <h3>Quote: {contestant.quote}</h3>
       <img src={contestant.image} alt={contestant.name} />
-      <button id="delete" onClick={removeContestant}>
-        Delete Contestant
-      </button>
+      <button onClick={removeContestant}>Delete Contestant</button>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
           value={editForm.strength}
           name="strength"
-          placeholder="strength"
+          placeholder="Strength"
           onChange={handleChange}
         />
-      
         <input
           type="number"
           value={editForm.totalSeasonsPlayed}
           name="totalSeasonsPlayed"
-          placeholder="seasons"
+          placeholder="Seasons Played"
           onChange={handleChange}
         />
         <input type="submit" value="Update Contestant" />
