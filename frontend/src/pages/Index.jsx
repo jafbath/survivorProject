@@ -6,11 +6,11 @@ function Index(props) {
     const [newForm, setNewForm] = useState({
         name: "",
         wins: 0,
-        seasons: 0,
+        totalSeasonsPlayed: 0,
         image: "",
         challengeWins: 0,
         votesAgainst: 0,
-        daysLasted: "",
+        daysLasted: 0,
         strength: "",
         quote: ""
     });
@@ -33,11 +33,11 @@ function Index(props) {
         setNewForm({
             name: "",
             wins: 0,
-            seasons: 0,
+            totalSeasonsPlayed: 0,
             image: "",
             challengeWins: 0,
             votesAgainst: 0,
-            daysLasted: "",
+            daysLasted: 0,
             strength: "",
             quote: ""
         });
@@ -66,7 +66,7 @@ function Index(props) {
                     type="text"
                     value={newForm.name}
                     name="name"
-                    placeholder="name"
+                    placeholder="Name"
                     onChange={handleChange}
                 />
                 <input
@@ -84,11 +84,11 @@ function Index(props) {
                     placeholder="wins"
                     onChange={handleChange}
                 /> 
-                Seasons:
+                Seasons played:
                 <input
                     type="number"
-                    value={newForm.seasons}
-                    name="seasons"
+                    value={newForm.totalSeasonsPlayed}
+                    name="totalSeasonsPlayed"
                     placeholder="seasons"
                     onChange={handleChange}
                 />
@@ -108,25 +108,26 @@ function Index(props) {
                     placeholder="votes against"
                     onChange={handleChange}
                 />
+                Days Lasted
                 <input
-                    type="text"
+                    type="number"
                     value={newForm.daysLasted}
                     name="daysLasted"
-                    placeholder="days lasted"
+                    placeholder="Days Lasted"
                     onChange={handleChange}
                 />
                 <input
                     type="text"
                     value={newForm.strength}
                     name="strength"
-                    placeholder="strength"
+                    placeholder="Strength(s)"
                     onChange={handleChange}
                 />
                 <input
                     type="text"
                     value={newForm.quote}
                     name="quote"
-                    placeholder="quote"
+                    placeholder="Memorable Quote"
                     onChange={handleChange}
                 />
                 <input type="submit" value="Create Contestant" />
