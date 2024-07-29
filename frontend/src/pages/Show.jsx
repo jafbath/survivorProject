@@ -37,7 +37,7 @@ const Show = (props) => {
       <h3>Days Lasted: {contestant.daysLasted}</h3>
       <h3>Quote: {contestant.quote}</h3>
       <img src={contestant.image} alt={contestant.name} />
-      <button onClick={removeContestant}>Delete Contestant</button>
+      <button onClick={removeContestant}>Exile to the Edge of Extinction</button>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
