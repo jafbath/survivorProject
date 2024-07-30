@@ -28,6 +28,7 @@ const Show = (props) => {
   };
 
   const sendToMerge = () => {
+    console.log("sending to the merge:", contestant);
     props.updateContestants({ ...contestant, merged: true }, contestant._id);
     navigate("/");
   };
