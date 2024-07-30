@@ -46,16 +46,16 @@ function Index(props) {
 
     const handleOutcome = () => {
         const contestants = props.contestants.filter(contestant => !contestant.exiled);
-    const finalThree = contestants.sort(() => 0.5 - Math.random()).slice(0, 3);
-    const winner = finalThree[Math.floor(Math.random() * finalThree.length)];
-    const jury = contestants.filter(contestant => contestant !== winner && !finalThree.includes(contestant));
-    const exiled = props.contestants.filter(contestant => contestant.exiled);
+        const finalThree = contestants.sort(() => 0.5 - Math.random()).slice(0, 3);
+        const winner = finalThree[Math.floor(Math.random() * finalThree.length)];
+        const jury = contestants.filter(contestant => contestant !== winner && !finalThree.includes(contestant));
+        const exiled = props.contestants.filter(contestant => contestant.exiled);
 
-    setOutcome({ winner, finalThree, jury, exiled });
-    setShowModal(true);
-  };
+        setOutcome({ winner, finalThree, jury, exiled });
+        setShowModal(true);
+    };
 
-  const closeModal = () => setShowModal(false);
+    const closeModal = () => setShowModal(false);
 
     const loaded = () => {
         console.log(props.contestants);
