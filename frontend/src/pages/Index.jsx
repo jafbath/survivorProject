@@ -134,7 +134,7 @@ function Index(props) {
                     placeholder="Memorable Quote"
                     onChange={handleChange}
                 />
-                <input type="submit" value="Create Contestant" className="button-text"/>
+                <input type="submit" value="Create Contestant" className="button-text" />
             </form>
         </div>
     );

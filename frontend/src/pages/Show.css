@@ -18,12 +18,12 @@
 
 .contestant-detail h1,
 .contestant-detail h3 {
-  color: rgba(0, 0, 0, 0.87); /* Darker color for better readability */
-  margin: 10px 0; /* Adjust spacing between text elements */
+  color: rgba(0, 0, 0, 0.87);
+  margin: 10px 0;
 }
 
 .contestant-detail button {
-  background-color: #8b7a56; /* Consistent with other button styles */
+  background-color: #8b7a56;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -35,7 +35,7 @@
 }
 
 .contestant-detail button:hover {
-  background-color: #6f4f28; /* Darker shade for hover effect */
+  background-color: #6f4f28;
 }
 
 .contestant-detail form {
