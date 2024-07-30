@@ -27,6 +27,11 @@ const Show = (props) => {
     navigate("/");
   };
 
+  const sendToMerge = () => {
+    props.updateContestants({ ...contestant, merged: true }, contestant._id);
+    navigate("/");
+  };
+
   return (
     <div className="contestant-detail">
       <h1>{contestant.name}</h1>
@@ -37,7 +42,10 @@ const Show = (props) => {
       <h3>Days Lasted: {contestant.daysLasted}</h3>
       <h3>Quote: {contestant.quote}</h3>
       <img src={contestant.image} alt={contestant.name} />
-      <button onClick={removeContestant}>Exile to the Edge of Extinction</button>
+      <div className="button-container">
+      <button className="send-to-merge" onClick={sendToMerge}>Send to the Merge</button>
+      <button className="exile" onClick={removeContestant}>Exile to the Edge of Extinction</button>
+      </div>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
