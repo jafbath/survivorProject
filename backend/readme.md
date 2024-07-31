@@ -1,7 +1,7 @@
 # Survivor Fantasy League
 
 #### A full-stack web application built as third project.
-<img src="./pics/Fantasy League Survivor Screenshot.png" alt="Contestant Cards"/>
+<img src="../pics/Raw db code.png" alt="db functionality"/>
 
 ## Description
 Fantasy League Survivor card game that takes the winners of 24 seasons of the survivor franchise. We give the user the freedom to create their own survivor/survivors to be able to generate the winners based on a random outcome. 
@@ -21,7 +21,7 @@ Fantasy League Survivor card game that takes the winners of 24 seasons of the su
 * CRUD
 * HTML
 * CSS
-* cors
+* Cors
 
 
 ## Features
@@ -32,7 +32,7 @@ As a user, I want to be able to add new contestants based off winners of the new
 As a user, I want a scenario to run once I complete my team which randomizes a final 3.
 
 ## <a name="design"></a>Design
-* Design elements implemented using HTML and CSS. 
+* Design elements implemented using Mongoose, Express and CRUD functionality. 
 
 
 ## <a name="nextsteps"></a>Project Next Steps
@@ -53,4 +53,4 @@ As a user, I want a scenario to run once I complete my team which randomizes a f
  
     
 ## Works Cited:
-* Referencing previous class lessons for some of the more in depth concepts of using map() and forms. 
+* Referencing previous class lessons for some of the more in depth concepts of using express.Router() and some CRUD functionality. 
