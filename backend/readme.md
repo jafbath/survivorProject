@@ -40,13 +40,15 @@ As a user, I want a scenario to run once I complete my team which randomizes a f
 * Add a feature like challenges which would generate winners of challenges based on contestant stats. 
 * Add a sign in feature so you can continue to use your own contestants that you have created to find the final three after a given amount of time.   
 * Implement more pages and routes that make the user feel like they are more in control of their own card game. 
+* Having visual indicators when someone is merged or exiled, this way the user can see who is merged and exiled instead of trying to remember that. 
+* Generate outcome button having more detailed results with metrics based on votes cast, challenge wins, etc... Just have it mirror realistic survivor seasons. 
+* Adding sound to the application as a whole. Reactive sounds and "waiting" sounds. 
 
 ## <a name="deployment"></a>Deployed Link
-[Github](https://jafbath.github.io/blackjack/)
+[Netlify](https://dev--survivorfantasyleague.netlify.app/)
 
 * You can view the repository:
 [Github.com](https://github.com/jafbath/survivorProject)
-* If unable to view please go live locally through VS Code
 
 ## <a name="author"></a>About the Author
 * Being our (James Fagan, Jillian Tanda, Pepper Rostamizadeh) first group project I feel like we "ham and egged" very well with proper planning steps in order to feel comfortable with what we produced as a product. Dividing responsibilities according to what each person felt confident in and fluent communication made this project flow smoothly.   
