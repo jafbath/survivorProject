@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const OutcomeModal = ({ show, onClose, outcome }) => {
   if (!show) return null;

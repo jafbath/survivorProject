@@ -1,12 +1,13 @@
-import { useEffect, useState } from "react"
-import { Route, Routes } from 'react-router-dom'
-import Index from "../pages/Index.jsx"
-import Show from '../pages/Show.jsx'
+import { useEffect, useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import Index from "../pages/Index.jsx";
+import Show from "../pages/Show.jsx";
+import Form from "./Form";
 
 const Home = (props) => {
-  const [contestants, setContestants] = useState(null)
+  const [contestants, setContestants] = useState(null);
 
-  const URL = 'http://localhost:4000/contestant/'
+  const URL = "http://localhost:4000/contestant/";
 
   const getContestants = async () => {
     try {
@@ -22,12 +23,12 @@ const Home = (props) => {
     await fetch(URL, {
       method: "POST",
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(contestant),
-    })
-    getContestants()
-  }
+    });
+    getContestants();
+  };
 
   const updateContestants = async (contestant, id) => {
     await fetch(URL + id, {
@@ -54,17 +55,27 @@ const Home = (props) => {
   return (
     <main>
       <Routes>
-        <Route path="/" element={<Index
-          contestants={contestants}
-          createContestants={createContestants} />} />
-        <Route path="/contestant/:id" element={<Show
-          contestants={contestants}
-          updateContestants={updateContestants}
-          deleteContestants={deleteContestants}
-        />} />
+        <Route
+          path="/contestants"
+          element={<Index contestants={contestants} />}
+        />
+        <Route
+          path="/newcontestant"
+          element={<Form createContestants={createContestants} />}
+        />
+        <Route
+          path="/contestant/:id"
+          element={
+            <Show
+              contestants={contestants}
+              updateContestants={updateContestants}
+              deleteContestants={deleteContestants}
+            />
+          }
+        />
       </Routes>
     </main>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
