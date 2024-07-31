@@ -1,6 +1,6 @@
 import { useState } from "react";
-import {useParams, useNavigate} from "react-router-dom";
-import './Show.css';
+import { useParams, useNavigate } from "react-router-dom";
+import "./Show.css";
 
 const Show = (props) => {
   const params = useParams();
@@ -44,10 +44,15 @@ const Show = (props) => {
       <h3>Quote: {contestant.quote}</h3>
       <img src={contestant.image} alt={contestant.name} />
       <div className="button-container">
-      <button className="send-to-merge" onClick={sendToMerge}>Send to the Merge</button>
-      <button className="exile" onClick={removeContestant}>Exile to the Edge of Extinction</button>
+        <button className="send-to-merge" onClick={sendToMerge}>
+          Send to the Merge
+        </button>
+        <button className="exile" onClick={removeContestant}>
+          Exile to the Edge of Extinction
+        </button>
       </div>
       <form onSubmit={handleSubmit}>
+        Strengths:{" "}
         <input
           type="text"
           value={editForm.strength}
@@ -55,6 +60,7 @@ const Show = (props) => {
           placeholder="Strength"
           onChange={handleChange}
         />
+        Seasons Played:
         <input
           type="number"
           value={editForm.totalSeasonsPlayed}
@@ -66,6 +72,6 @@ const Show = (props) => {
       </form>
     </div>
   );
-}
+};
 
 export default Show;
