@@ -1,7 +1,7 @@
 # Survivor Fantasy League
 
 #### A full-stack web application built as third project.
-<img src="./pics/Fantasy League Survivor Screenshot.png" alt="Contestant Cards"/>
+<img src="../pics/Fantasy League Survivor Screenshot.png" alt="Contestant Cards"/>
 
 ## Description
 Fantasy League Survivor card game that takes the winners of 24 seasons from the survivor franchise. We give the user the freedom to create their own survivor/survivors to be able to generate the winners based on a random outcome. 
