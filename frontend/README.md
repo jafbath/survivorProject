@@ -1,6 +1,7 @@
 # Survivor Fantasy League
 
 #### A full-stack web application built as third project.
+<img src="../pics/Wireframe.png" alt="Wireframes">
 <img src="../pics/Fantasy League Survivor Screenshot.png" alt="Contestant Cards"/>
 
 ## Description
