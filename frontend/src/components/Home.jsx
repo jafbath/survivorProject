@@ -7,7 +7,7 @@ import Form from "./Form";
 const Home = (props) => {
   const [contestants, setContestants] = useState(null);
 
-  const URL = "http://localhost:4000/contestant/";
+  const URL = "https://survivorproject.onrender.com/contestant/";
 
   const getContestants = async () => {
     try {
