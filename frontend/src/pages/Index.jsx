@@ -1,15 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import OutcomeModal from "./OutcomeModal";
-import { useNavigate } from "react-router-dom";
-
 
 function Index(props) {
   const [showModal, setShowModal] = useState(false);
   const [outcome, setOutcome] = useState(null);
- const navigate = useNavigate();
- 
-
   const handleOutcome = () => {
     const contestants = props.contestants.filter(
       (contestant) => !contestant.exiled
@@ -61,9 +56,9 @@ function Index(props) {
         Generate an Outcome
       </button>
       <OutcomeModal show={showModal} onClose={closeModal} outcome={outcome} />
-      <Link to="/newcontestant"><button className="generate-outcome-button">
-        New Contestant
-      </button></Link>
+      <Link to="/newcontestant">
+        <button className="generate-outcome-button">New Contestant</button>
+      </Link>
     </div>
   );
 }
