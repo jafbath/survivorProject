@@ -43,7 +43,6 @@ const Form = (props) => {
       strength: "",
       quote: "",
     });
-    window.location.href = "/contestants"
   };
   return (
     <div>
